@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "inclusion-game",
-    "slug": "snack-92517372-1979-47f6-a716-577735607911",
+    "name": "Inclusion Game",
+    "slug": "inclusion-game",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,10 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tunombre.inclusiongame"
     },
     "android": {
-      "package": "com.tuusuario.inclusiongame",
+      "package": "com.tunombre.inclusiongame",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eda61c95-70e1-4593-8e9f-26c845e475de"
+      }
     }
   }
 }
